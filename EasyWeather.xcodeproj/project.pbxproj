@@ -6,23 +6,49 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFA401AE2D796EA60007C60C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA401AB2D796EA60007C60C /* ContentView.swift */; };
+		EFA401AF2D796EA60007C60C /* EasyWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA401AC2D796EA60007C60C /* EasyWeatherApp.swift */; };
+		EFA401B02D796EA60007C60C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA401A82D796EA60007C60C /* Preview Assets.xcassets */; };
+		EFA401B12D796EA60007C60C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA401AA2D796EA60007C60C /* Assets.xcassets */; };
+		EFA401B42D7972640007C60C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA401B32D7972640007C60C /* Location.swift */; };
+		EFA401B72D7973350007C60C /* SwiftFlags in Frameworks */ = {isa = PBXBuildFile; productRef = EFA401B62D7973350007C60C /* SwiftFlags */; };
+		EFA401B92D79738E0007C60C /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA401B82D79738E0007C60C /* Weather.swift */; };
+		EFA401BC2D7975700007C60C /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA401BB2D7975700007C60C /* APIEndpoints.swift */; };
+		EFA401C02D7977710007C60C /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFA401BF2D7977710007C60C /* Secrets.plist */; };
+		EFA401C22D7977B20007C60C /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA401C12D7977B20007C60C /* APIKeys.swift */; };
+		EFA401C42D7979970007C60C /* GeocodingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA401C32D7979970007C60C /* GeocodingClient.swift */; };
+		EFA401C62D797C2A0007C60C /* WeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA401C52D797C2A0007C60C /* WeatherClient.swift */; };
+		EFA401C92D798A540007C60C /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA401C82D798A540007C60C /* WeatherView.swift */; };
+		EFA401CD2D7995B60007C60C /* AlertMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA401CC2D7995B60007C60C /* AlertMessageView.swift */; };
+		EFA401D02D79AA0F0007C60C /* MeasurementFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA401CF2D79AA0F0007C60C /* MeasurementFormatter+Ext.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EFA401972D796E9E0007C60C /* EasyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA401A82D796EA60007C60C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFA401AA2D796EA60007C60C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFA401AB2D796EA60007C60C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFA401AC2D796EA60007C60C /* EasyWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyWeatherApp.swift; sourceTree = "<group>"; };
+		EFA401B32D7972640007C60C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		EFA401B82D79738E0007C60C /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		EFA401BB2D7975700007C60C /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		EFA401BE2D7977120007C60C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EFA401BF2D7977710007C60C /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		EFA401C12D7977B20007C60C /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		EFA401C32D7979970007C60C /* GeocodingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingClient.swift; sourceTree = "<group>"; };
+		EFA401C52D797C2A0007C60C /* WeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClient.swift; sourceTree = "<group>"; };
+		EFA401C82D798A540007C60C /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		EFA401CC2D7995B60007C60C /* AlertMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessageView.swift; sourceTree = "<group>"; };
+		EFA401CF2D79AA0F0007C60C /* MeasurementFormatter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeasurementFormatter+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EFA401992D796E9E0007C60C /* EasyWeather */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EasyWeather;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFA401942D796E9E0007C60C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA401B72D7973350007C60C /* SwiftFlags in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +58,8 @@
 		EFA4018E2D796E9E0007C60C = {
 			isa = PBXGroup;
 			children = (
-				EFA401992D796E9E0007C60C /* EasyWeather */,
+				EFA401BE2D7977120007C60C /* .gitignore */,
+				EFA401AD2D796EA60007C60C /* EasyWeather */,
 				EFA401982D796E9E0007C60C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +70,75 @@
 				EFA401972D796E9E0007C60C /* EasyWeather.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA401A92D796EA60007C60C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFA401A82D796EA60007C60C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFA401AD2D796EA60007C60C /* EasyWeather */ = {
+			isa = PBXGroup;
+			children = (
+				EFA401BF2D7977710007C60C /* Secrets.plist */,
+				EFA401CE2D79A9F10007C60C /* Extension */,
+				EFA401BD2D7976E50007C60C /* Utils */,
+				EFA401BA2D79754F0007C60C /* Client */,
+				EFA401B22D7972190007C60C /* Model */,
+				EFA401C72D798A3B0007C60C /* View */,
+				EFA401AC2D796EA60007C60C /* EasyWeatherApp.swift */,
+				EFA401AA2D796EA60007C60C /* Assets.xcassets */,
+				EFA401A92D796EA60007C60C /* Preview Content */,
+			);
+			path = EasyWeather;
+			sourceTree = "<group>";
+		};
+		EFA401B22D7972190007C60C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFA401B32D7972640007C60C /* Location.swift */,
+				EFA401B82D79738E0007C60C /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFA401BA2D79754F0007C60C /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				EFA401BB2D7975700007C60C /* APIEndpoints.swift */,
+				EFA401C32D7979970007C60C /* GeocodingClient.swift */,
+				EFA401C52D797C2A0007C60C /* WeatherClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		EFA401BD2D7976E50007C60C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EFA401C12D7977B20007C60C /* APIKeys.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EFA401C72D798A3B0007C60C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFA401AB2D796EA60007C60C /* ContentView.swift */,
+				EFA401CC2D7995B60007C60C /* AlertMessageView.swift */,
+				EFA401C82D798A540007C60C /* WeatherView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFA401CE2D79A9F10007C60C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EFA401CF2D79AA0F0007C60C /* MeasurementFormatter+Ext.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +156,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				EFA401992D796E9E0007C60C /* EasyWeather */,
-			);
 			name = EasyWeather;
 			packageProductDependencies = (
+				EFA401B62D7973350007C60C /* SwiftFlags */,
 			);
 			productName = EasyWeather;
 			productReference = EFA401972D796E9E0007C60C /* EasyWeather.app */;
@@ -94,6 +188,9 @@
 			);
 			mainGroup = EFA4018E2D796E9E0007C60C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EFA401B52D7973350007C60C /* XCRemoteSwiftPackageReference "SwiftFlags" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EFA401982D796E9E0007C60C /* Products */;
 			projectDirPath = "";
@@ -109,6 +206,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA401B02D796EA60007C60C /* Preview Assets.xcassets in Resources */,
+				EFA401C02D7977710007C60C /* Secrets.plist in Resources */,
+				EFA401B12D796EA60007C60C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +219,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA401C22D7977B20007C60C /* APIKeys.swift in Sources */,
+				EFA401BC2D7975700007C60C /* APIEndpoints.swift in Sources */,
+				EFA401C42D7979970007C60C /* GeocodingClient.swift in Sources */,
+				EFA401B92D79738E0007C60C /* Weather.swift in Sources */,
+				EFA401AE2D796EA60007C60C /* ContentView.swift in Sources */,
+				EFA401D02D79AA0F0007C60C /* MeasurementFormatter+Ext.swift in Sources */,
+				EFA401CD2D7995B60007C60C /* AlertMessageView.swift in Sources */,
+				EFA401C62D797C2A0007C60C /* WeatherClient.swift in Sources */,
+				EFA401C92D798A540007C60C /* WeatherView.swift in Sources */,
+				EFA401B42D7972640007C60C /* Location.swift in Sources */,
+				EFA401AF2D796EA60007C60C /* EasyWeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +435,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFA401B52D7973350007C60C /* XCRemoteSwiftPackageReference "SwiftFlags" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BubiDevs/SwiftFlags.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFA401B62D7973350007C60C /* SwiftFlags */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFA401B52D7973350007C60C /* XCRemoteSwiftPackageReference "SwiftFlags" */;
+			productName = SwiftFlags;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EFA4018F2D796E9E0007C60C /* Project object */;
 }
